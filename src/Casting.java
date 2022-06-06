@@ -16,5 +16,18 @@ public class Casting {
         int b = 12;
 
         System.out.println((double) a/b);
+
+        //Casteo entre tipos de datos
+        double c = (double) a/b;
+        System.out.println(c);
+
+        //Casteo automatico
+        char n = '1';
+        int nI = n;
+        System.out.println(nI);
+
+        //Casteo Explicito
+        short nS = (short) n;
+        System.out.println(nS);
     }
 }
