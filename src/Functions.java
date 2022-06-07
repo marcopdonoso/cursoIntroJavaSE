@@ -17,7 +17,7 @@ public class Functions {
         //System.out.println((4/3) * Math.PI * Math.pow(y,3));
         System.out.println(sphereVolume(y));
 
-        System.out.println("BOB a US$: " + convertToDolar(200,"BOB"));
+        System.out.println("Conversion a US$: " + convertToDolar(200,"MXN"));
     }
 
     public static double circleArea(double r) {
