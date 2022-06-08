@@ -23,8 +23,13 @@ public class Arrays {
         androidVersions[2] = "Cupcake";
         androidVersions[3] = "Donut";
 
-        for (int i = 0; i < androidVersions.length; i++) {
+        /*for (int i = 0; i < androidVersions.length; i++) {
             System.out.println(androidVersions[i]);
+        }*/
+
+        for (String androidVersion:
+             androidVersions) {
+            System.out.println(androidVersion);
         }
 
 
@@ -40,9 +45,17 @@ public class Arrays {
         cities[3][0] = "Bolivia";
         cities[3][1] = "CBB";
 
-        for (int i = 0; i < cities.length; i++) {
+        /*for (int i = 0; i < cities.length; i++) {
             for (int j = 0; j < cities[i].length; j++) {
                 System.out.println(cities[i][j]);
+            }
+        }*/
+
+        for (String[] pair:
+             cities) {
+            for (String name:
+                 pair) {
+                System.out.println(name);
             }
         }
 
